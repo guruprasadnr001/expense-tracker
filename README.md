@@ -14,9 +14,20 @@ Make sure the following are installed:
 sudo apt update
 sudo apt install mysql-server
 sudo systemctl start mysql
-
-mysql -u root -p
 ```
+
+(Windows)
+
+> Download it through official mysql site.
+> https://dev.mysql.com/downloads/installer/
+
+> Setup path in environmental variables.
+
+```bash
+ mysql -u root -p
+```
+
+Enter password and login to mysql and create a table.
 
 CREATE DATABASE db_name;
 
