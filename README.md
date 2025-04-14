@@ -46,7 +46,6 @@ JWT_SECRET=secretKey
 ### 2.3 Migrate database tables and start server
 
 ```bash
-npx sequelize-cli db:migrate
 npm start
 ```
 
