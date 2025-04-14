@@ -43,7 +43,7 @@ DB_PASS=password
 DB_NAME=db_name
 JWT_SECRET=secretKey
 
-### 2.3 Migrate database tables and start server
+### 2.3 Start server
 
 ```bash
 npm start
